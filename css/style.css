@@ -1,0 +1,18 @@
+/**
+ * file: style.css
+ * purpose: styles, animation etc
+ * further development: meyer reset perhaps?
+ **/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:'Helvetica', sans-serif;
+  transition:.5s;
+}
+
+header {
+  height:70vh;
+  width:100%;
+  background-color:red;
+}
