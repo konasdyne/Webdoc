@@ -30,6 +30,7 @@ pausethree.addEventListener("click", mamaStop);
 
 function sorrowFunc() {
       _audio1.play();
+      _audio1.volume = .2;
       playsorrow.classList.remove("active-btn");
       pauseone.classList.add("active-btn");
 }
@@ -41,6 +42,7 @@ function sorrowStop() {
 }
 function oneMile() {
       _audio2.play();
+      _audio2.volume = .2;
       playmile.classList.remove("active-btn");
       pausetwo.classList.add("active-btn");
 }
@@ -52,6 +54,7 @@ function mileStop() {
 }
 function bigMama() {
       _audio3.play();
+      _audio3.volume = .2;
       playmama.classList.remove("active-btn");
       pausethree.classList.add("active-btn");
 }
